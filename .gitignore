@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+
+# Local databases and their WAL sidecars are never committed.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
